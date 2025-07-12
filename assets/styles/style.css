@@ -19,9 +19,8 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background-color: #fff;
-  color: #0b0c2a;
-  border: 2px solid #fff;
+  background-color: #0b0c2a;
+  color: #fff;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -44,7 +43,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 10px 50px;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #0b0c2a;
 }
 
 .introduction {
@@ -55,7 +54,7 @@
 .photo {
   width: 150px;
   height: 150px;
-  border: 3px solid #fff;
+  border: 3px solid #0b0c2a;
   border-radius: 50%;
 }
 
@@ -64,3 +63,13 @@
 }
 
 /* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.logo {
+  height: 30px;
+}
